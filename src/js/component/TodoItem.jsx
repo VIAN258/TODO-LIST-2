@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function TodoItem({todo}){
+export function TodoItem({todo}){
     const {id, task, completed } = todo
     return (
         <li>
