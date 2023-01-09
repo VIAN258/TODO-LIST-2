@@ -11,6 +11,7 @@ export function Home() {
 	<Fragment>
       <TodoList todos={todos}/>
 	  <input type="text" className="form-control" placeholder="Enter task" onKeyDown={e => validate(e)}/>
+	  <button type="button" class="btn-close" aria-label="Close"></button>
 	</Fragment>
 	);	
 	
